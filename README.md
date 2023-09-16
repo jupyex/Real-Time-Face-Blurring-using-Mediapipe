@@ -1,3 +1,3 @@
-# Real Time Face Blurrer using OpenCV and Mediapipe
+# Real Time Face Blurring using OpenCV and Mediapipe
 
 Originally, I followed the [face detection guide for Python provided by Mediapipe](https://docs.readme.com/main/docs/linking-to-pages), where I created a face detector instance. Face detection was a success, yet I could not find any ways to obtain the variables `origin_x`, `origin_y`, `height` and `width` from the `FaceDetectorResult` object so as to blur the face. Thus, I resorted to using `mp.solutions.face_detection` with easy-to-use APIs to process frames and obtian face detection results, such as the coordinates of the bounding boxes around the detected faces. 
