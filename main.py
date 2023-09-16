@@ -1,4 +1,3 @@
-# Import libraries
 import cv2
 import mediapipe as mp
 
@@ -29,7 +28,6 @@ with detector.FaceDetection(min_detection_confidence=0.5) as detector:
 
         cv2.imshow("Face Blurring", img_rgb)
 
-        # Press 'x' to exit
         if cv2.waitKey(1) == ord('x'):
             break
 
