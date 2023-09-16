@@ -4,3 +4,6 @@ Originally, I followed the [face detection guide for Python provided by Mediapip
 
 ## How to use it?
 Simply run the program (after installing the libraries - OpenCV and Mediapipe) and if you're in front of the camera, your face will be blurred. To stop the program from running, press `x` on your keyboard.
+
+## Acknowledgements
+The idea was inspired by [Murtaza Hassan's video](https://www.youtube.com/watch?v=cxs6iXeyfEY), yet the code is different. 
